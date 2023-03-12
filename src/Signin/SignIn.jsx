@@ -3,7 +3,7 @@ import React, { useState,  } from "react";
 import { auth, db } from "../firebase";
 import { doc, getDoc } from 'firebase/firestore';
 import "./SignIn.css";
-import {useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 
 
@@ -79,6 +79,7 @@ const SignIn = () => {
           <button onClick={signInWithGoogle} className="google-button">Sign In with Google</button>
         </div>
       </form>
+      <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
     </div>
   );
 };
