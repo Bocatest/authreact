@@ -1,0 +1,85 @@
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.logo-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  width: 100%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rebeccapurple;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.sign-in-link {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+.sign-in-link a {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign-in-link a:hover {
+  color: #555;
+  text-decoration: none;
+}
+
+.error-message {
+  color: red;
+}
+
